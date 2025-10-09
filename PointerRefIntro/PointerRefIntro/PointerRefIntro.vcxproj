@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{86a0d6a3-8db7-4cd5-bea5-08df72556165}</ProjectGuid>
-    <RootNamespace>buggyLoops</RootNamespace>
+    <ProjectGuid>{386d8731-640c-4ed9-be12-d6ae0129c3fd}</ProjectGuid>
+    <RootNamespace>PointerRefIntro</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,9 +123,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="buggyLoops.cpp" />
-    <ClCompile Include="my_math_funcs.cpp" />
-    <ClCompile Include="rep.cpp" />
+    <ClCompile Include="demo.cpp" />
+    <ClCompile Include="PointerRefIntro.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

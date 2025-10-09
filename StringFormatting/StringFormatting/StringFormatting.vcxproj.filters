@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="buggyLoops.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="rep.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="my_math_funcs.cpp">
+    <ClCompile Include="StringFormatting.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
